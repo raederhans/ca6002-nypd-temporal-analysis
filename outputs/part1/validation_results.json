@@ -1,0 +1,183 @@
+{
+  "overall_assessment": "Ready to share",
+  "summary": {
+    "snapshot_rows": 141870,
+    "snapshot_columns": 19,
+    "processed_rows": 141870,
+    "processed_columns": 24,
+    "date_range": [
+      "2026-01-01",
+      "2026-06-30"
+    ],
+    "retrieval_date": "2026-08-22",
+    "retrieval_gap_days": 53,
+    "figure_count": 5
+  },
+  "checks": [
+    {
+      "name": "Snapshot metadata exists",
+      "passed": true,
+      "evidence": "outputs\\part1\\dataset_snapshot_metadata.json"
+    },
+    {
+      "name": "Frozen raw CSV exists",
+      "passed": true,
+      "evidence": "data\\raw\\nypd_arrests_ytd_2026-08-22.csv"
+    },
+    {
+      "name": "API counts reconcile",
+      "passed": true,
+      "evidence": "before=141870, downloaded=141870, after=141870"
+    },
+    {
+      "name": "Source revision fence is stable",
+      "passed": true,
+      "evidence": "before=1785165936, after=1785165936, post_download_count=141870"
+    },
+    {
+      "name": "Raw shape matches metadata",
+      "passed": true,
+      "evidence": "actual=(141870, 19), expected=(141870, 19)"
+    },
+    {
+      "name": "Raw snapshot byte identity",
+      "passed": true,
+      "evidence": "sha256=5dd32e102e2665a0c0e6eed87d1bb3b918758722494e4c8d42acaf612c528c15"
+    },
+    {
+      "name": "Pagination accounting and stable total order reconcile",
+      "passed": true,
+      "evidence": "pages=6, offsets=[0, 25000, 50000, 75000, 100000, 125000], rows=[25000, 25000, 25000, 25000, 25000, 16870], order=arrest_key, primary_unique=True, tie_breaker=None"
+    },
+    {
+      "name": "Acquisition duplicate counters reconcile",
+      "passed": true,
+      "evidence": "exact_beyond_first=0, duplicate_key_rows_beyond_first=0"
+    },
+    {
+      "name": "Data-quality report exists",
+      "passed": true,
+      "evidence": "outputs\\part1\\data_quality_report.json"
+    },
+    {
+      "name": "Duplicate audit and conservative cleaning reconcile",
+      "passed": true,
+      "evidence": "{\"raw_exact_duplicates_removed\": 0, \"raw_duplicate_key_groups\": 0, \"raw_duplicate_key_rows\": 0, \"expected_processed_rows\": 141870, \"evidence_ok\": true}"
+    },
+    {
+      "name": "Processed CSV exists",
+      "passed": true,
+      "evidence": "data\\processed\\nypd_arrests_clean.csv"
+    },
+    {
+      "name": "Processed shape and retention",
+      "passed": true,
+      "evidence": "processed=(141870, 24), raw=(141870, 19), exact_duplicates_removed=0"
+    },
+    {
+      "name": "Processed source-field order and values match the exact-deduplicated baseline",
+      "passed": true,
+      "evidence": "{\"ARREST_KEY\": true, \"ARREST_DATE\": true, \"PD_CD\": true, \"PD_DESC\": true, \"KY_CD\": true, \"OFNS_DESC\": true, \"LAW_CODE\": true, \"LAW_CAT_CD\": true, \"ARREST_BORO\": true, \"ARREST_PRECINCT\": true, \"JURISDICTION_CODE\": true, \"AGE_GROUP\": true, \"PERP_SEX\": true, \"PERP_RACE\": true, \"X_COORD_CD\": true, \"Y_COORD_CD\": true, \"LATITUDE\": true, \"LONGITUDE\": true, \"GEOCODED_COLUMN\": true}"
+    },
+    {
+      "name": "Processed key order preserves retained frozen-snapshot records",
+      "passed": true,
+      "evidence": "keys_compared=141,870"
+    },
+    {
+      "name": "Identifier and numeric-coded category text is preserved",
+      "passed": true,
+      "evidence": "{\"ARREST_KEY\": true, \"PD_CD\": true, \"KY_CD\": true, \"ARREST_PRECINCT\": true, \"JURISDICTION_CODE\": true}"
+    },
+    {
+      "name": "Processed dates follow the documented retain-as-NaT policy",
+      "passed": true,
+      "evidence": "valid=141870, invalid_retained=0, missing_retained=0"
+    },
+    {
+      "name": "Derived temporal fields recompute exactly",
+      "passed": true,
+      "evidence": "YEAR, MONTH, MONTH_NAME, DAY_OF_WEEK, DAY_OF_WEEK_NUM"
+    },
+    {
+      "name": "Schema profile covers every raw field",
+      "passed": true,
+      "evidence": "schema_rows=19"
+    },
+    {
+      "name": "Schema null counts recompute",
+      "passed": true,
+      "evidence": "total_null_cells=893"
+    },
+    {
+      "name": "Effective missingness recomputes for every raw field",
+      "passed": true,
+      "evidence": "total_effective_missing=951"
+    },
+    {
+      "name": "Final findings and Figure 1 use effective missingness",
+      "passed": true,
+      "evidence": "source=outputs/part1/missingness_summary.csv, metric=effective_missing, highest={'field': 'LAW_CAT_CD', 'reported_missing_count': 869, 'reported_missing_pct': 0.6125, 'effective_missing_count': 869, 'effective_missing_pct': 0.6125}"
+    },
+    {
+      "name": "Daily table recomputes",
+      "passed": true,
+      "evidence": "days=181, total=141870"
+    },
+    {
+      "name": "Monthly calendar-day averages recompute",
+      "passed": true,
+      "evidence": "months=6, partial=0"
+    },
+    {
+      "name": "Weekday order and occurrence averages recompute",
+      "passed": true,
+      "evidence": "order=['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']"
+    },
+    {
+      "name": "Severity output follows its data-quality admission and denominator",
+      "passed": true,
+      "evidence": "share_sums={Jan 2026: 99.999999, Feb 2026: 100.000000, Mar 2026: 100.000000, Apr 2026: 99.999999, May 2026: 99.999999, Jun 2026: 100.000000}"
+    },
+    {
+      "name": "All slide figures are readable PNG 1600x900 plus valid SVG",
+      "passed": true,
+      "evidence": "{\"missingness_overview\": {\"png\": \"figures/part1/missingness_overview.png\", \"svg\": \"figures/part1/missingness_overview.svg\", \"size\": [1600, 900], \"extrema\": [[23, 255], [49, 255], [58, 255]]}, \"daily_arrests_rolling\": {\"png\": \"figures/part1/daily_arrests_rolling.png\", \"svg\": \"figures/part1/daily_arrests_rolling.svg\", \"size\": [1600, 900], \"extrema\": [[0, 255], [0, 255], [0, 255]]}, \"monthly_average_daily_arrests\": {\"png\": \"figures/part1/monthly_average_daily_arrests.png\", \"svg\": \"figures/part1/monthly_average_daily_arrests.svg\", \"size\": [1600, 900], \"extrema\": [[0, 255], [49, 255], [58, 255]]}, \"weekday_average_arrests\": {\"png\": \"figures/part1/weekday_average_arrests.png\", \"svg\": \"figures/part1/weekday_average_arrests.svg\", \"size\": [1600, 900], \"extrema\": [[0, 255], [49, 255], [58, 255]]}, \"monthly_severity_composition\": {\"png\": \"figures/part1/monthly_severity_composition.png\", \"svg\": \"figures/part1/monthly_severity_composition.svg\", \"size\": [1600, 900], \"extrema\": [[0, 255], [0, 255], [0, 255]]}}"
+    },
+    {
+      "name": "All slide-ready handoff documents exist",
+      "passed": true,
+      "evidence": "missing=[]"
+    },
+    {
+      "name": "Slide-ready language avoids unsupported crime/causal claims",
+      "passed": true,
+      "evidence": "matches=[]"
+    },
+    {
+      "name": "Four slide notes use the required structure and bounded length",
+      "passed": true,
+      "evidence": "[{\"words\": 199, \"sections_ok\": true}, {\"words\": 178, \"sections_ok\": true}, {\"words\": 162, \"sections_ok\": true}, {\"words\": 165, \"sections_ok\": true}]"
+    },
+    {
+      "name": "Handoff states the observed window without a false partial-month warning",
+      "passed": true,
+      "evidence": "Expected latest date 2026-06-30, retrieval gap 53 days, partial_months=0."
+    },
+    {
+      "name": "Notebook exists",
+      "passed": true,
+      "evidence": "notebooks\\01_dataset_temporal.ipynb"
+    },
+    {
+      "name": "Notebook structure and required section order",
+      "passed": true,
+      "evidence": "cells=20, code_cells=10"
+    },
+    {
+      "name": "Notebook executed top-to-bottom without errors",
+      "passed": true,
+      "evidence": "executed_code_cells=10/10, errors=0, streams=0"
+    }
+  ]
+}

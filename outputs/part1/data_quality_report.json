@@ -1,0 +1,600 @@
+{
+  "generated_at_utc": "2026-08-22T11:21:49.756356+00:00",
+  "source_file": "data/raw/nypd_arrests_ytd_2026-08-22.csv",
+  "snapshot_date": "2026-08-22",
+  "dataset": {
+    "row_count": 141870,
+    "column_count": 19,
+    "original_column_names": [
+      "ARREST_KEY",
+      "ARREST_DATE",
+      "PD_CD",
+      "PD_DESC",
+      "KY_CD",
+      "OFNS_DESC",
+      "LAW_CODE",
+      "LAW_CAT_CD",
+      "ARREST_BORO",
+      "ARREST_PRECINCT",
+      "JURISDICTION_CODE",
+      "AGE_GROUP",
+      "PERP_SEX",
+      "PERP_RACE",
+      "X_COORD_CD",
+      "Y_COORD_CD",
+      "LATITUDE",
+      "LONGITUDE",
+      "GEOCODED_COLUMN"
+    ],
+    "standardized_column_names": [
+      "ARREST_KEY",
+      "ARREST_DATE",
+      "PD_CD",
+      "PD_DESC",
+      "KY_CD",
+      "OFNS_DESC",
+      "LAW_CODE",
+      "LAW_CAT_CD",
+      "ARREST_BORO",
+      "ARREST_PRECINCT",
+      "JURISDICTION_CODE",
+      "AGE_GROUP",
+      "PERP_SEX",
+      "PERP_RACE",
+      "X_COORD_CD",
+      "Y_COORD_CD",
+      "LATITUDE",
+      "LONGITUDE",
+      "GEOCODED_COLUMN"
+    ]
+  },
+  "schema_validation": {
+    "expected_19_column_schema": [
+      "ARREST_KEY",
+      "ARREST_DATE",
+      "PD_CD",
+      "PD_DESC",
+      "KY_CD",
+      "OFNS_DESC",
+      "LAW_CODE",
+      "LAW_CAT_CD",
+      "ARREST_BORO",
+      "ARREST_PRECINCT",
+      "JURISDICTION_CODE",
+      "AGE_GROUP",
+      "PERP_SEX",
+      "PERP_RACE",
+      "X_COORD_CD",
+      "Y_COORD_CD",
+      "LATITUDE",
+      "LONGITUDE",
+      "GEOCODED_COLUMN"
+    ],
+    "matches_expected_19_column_schema": true,
+    "columns_in_expected_order": true,
+    "missing_expected_columns": [],
+    "unexpected_columns": [],
+    "column_name_mapping": {
+      "ARREST_KEY": "ARREST_KEY",
+      "ARREST_DATE": "ARREST_DATE",
+      "PD_CD": "PD_CD",
+      "PD_DESC": "PD_DESC",
+      "KY_CD": "KY_CD",
+      "OFNS_DESC": "OFNS_DESC",
+      "LAW_CODE": "LAW_CODE",
+      "LAW_CAT_CD": "LAW_CAT_CD",
+      "ARREST_BORO": "ARREST_BORO",
+      "ARREST_PRECINCT": "ARREST_PRECINCT",
+      "JURISDICTION_CODE": "JURISDICTION_CODE",
+      "AGE_GROUP": "AGE_GROUP",
+      "PERP_SEX": "PERP_SEX",
+      "PERP_RACE": "PERP_RACE",
+      "X_COORD_CD": "X_COORD_CD",
+      "Y_COORD_CD": "Y_COORD_CD",
+      "LATITUDE": "LATITUDE",
+      "LONGITUDE": "LONGITUDE",
+      "GEOCODED_COLUMN": "GEOCODED_COLUMN"
+    }
+  },
+  "missingness": {
+    "columns_with_parser_nulls": 3,
+    "columns_with_effective_missingness": 6,
+    "total_parser_null_cells": 893,
+    "total_blank_string_cells": 0,
+    "total_sentinel_missing_cells": 58,
+    "total_effective_missing_cells": 951,
+    "highest_effective_missingness": [
+      {
+        "column_name": "LAW_CAT_CD",
+        "missing_count": 864,
+        "missing_percentage": 0.609,
+        "blank_string_count": 0,
+        "sentinel_missing_count": 5,
+        "effective_missing_count": 869,
+        "effective_missing_percentage": 0.6125
+      },
+      {
+        "column_name": "KY_CD",
+        "missing_count": 24,
+        "missing_percentage": 0.0169,
+        "blank_string_count": 0,
+        "sentinel_missing_count": 0,
+        "effective_missing_count": 24,
+        "effective_missing_percentage": 0.0169
+      },
+      {
+        "column_name": "OFNS_DESC",
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "blank_string_count": 0,
+        "sentinel_missing_count": 24,
+        "effective_missing_count": 24,
+        "effective_missing_percentage": 0.0169
+      },
+      {
+        "column_name": "PD_DESC",
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "blank_string_count": 0,
+        "sentinel_missing_count": 24,
+        "effective_missing_count": 24,
+        "effective_missing_percentage": 0.0169
+      },
+      {
+        "column_name": "LAW_CODE",
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "blank_string_count": 0,
+        "sentinel_missing_count": 5,
+        "effective_missing_count": 5,
+        "effective_missing_percentage": 0.0035
+      },
+      {
+        "column_name": "PD_CD",
+        "missing_count": 5,
+        "missing_percentage": 0.0035,
+        "blank_string_count": 0,
+        "sentinel_missing_count": 0,
+        "effective_missing_count": 5,
+        "effective_missing_percentage": 0.0035
+      }
+    ],
+    "treatment": "Missing values are reported and retained; no imputation is performed."
+  },
+  "duplicates": {
+    "exact_duplicate_rows_beyond_first": 0,
+    "exact_duplicate_rows_involved": 0,
+    "exact_duplicate_rate_percentage": 0.0,
+    "arrest_key_available": true,
+    "nonblank_arrest_key_count": 141870,
+    "missing_or_blank_arrest_key_count": 0,
+    "duplicated_arrest_key_count": 0,
+    "rows_with_duplicated_arrest_key": 0,
+    "duplicated_key_groups_with_identical_rows": 0,
+    "interpretation": "Exact row copies can be removed without losing distinct source information. Repeated ARREST_KEY values with any field difference require investigation and are retained."
+  },
+  "date_validation": {
+    "available": true,
+    "snapshot_date": "2026-08-22",
+    "expected_ytd_year": 2026,
+    "source_missing_or_blank_count": 0,
+    "parse_failure_count": 0,
+    "parse_failure_percentage_of_provided": 0.0,
+    "valid_date_count": 141870,
+    "min_date": "2026-01-01",
+    "max_date": "2026-06-30",
+    "calendar_coverage_days": 181,
+    "observed_unique_dates": 181,
+    "unobserved_dates_within_range": 0,
+    "snapshot_to_latest_arrest_gap_days": 53,
+    "latest_observed_month_calendar_complete": true,
+    "future_date_count": 0,
+    "abnormal_year_count": 0,
+    "year_counts": {
+      "2026": 141870
+    },
+    "ytd_caveat": "Coverage is assessed only over the observed snapshot; a YTD dataset must not be treated as a complete twelve-month period."
+  },
+  "categorical_validation": {
+    "checked_columns": [
+      "ARREST_BORO",
+      "LAW_CAT_CD",
+      "AGE_GROUP",
+      "PERP_SEX",
+      "PERP_RACE"
+    ],
+    "absent_requested_columns": [],
+    "columns": {
+      "ARREST_BORO": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "blank_string_count": 0,
+        "distinct_non_missing_count": 5,
+        "unique_values": [
+          "B",
+          "K",
+          "M",
+          "Q",
+          "S"
+        ],
+        "value_counts": {
+          "K": 42877,
+          "B": 32682,
+          "M": 32089,
+          "Q": 29053,
+          "S": 5169
+        },
+        "expected_values": [
+          "B",
+          "K",
+          "M",
+          "Q",
+          "S"
+        ],
+        "unexpected_values_after_uppercase_comparison": []
+      },
+      "LAW_CAT_CD": {
+        "missing_count": 864,
+        "missing_percentage": 0.609,
+        "blank_string_count": 0,
+        "distinct_non_missing_count": 6,
+        "unique_values": [
+          "(null)",
+          "9",
+          "F",
+          "I",
+          "M",
+          "V"
+        ],
+        "value_counts": {
+          "M": 82929,
+          "F": 55651,
+          "V": 1896,
+          "9": 426,
+          "I": 99,
+          "(null)": 5
+        },
+        "expected_values": [
+          "F",
+          "I",
+          "M",
+          "V"
+        ],
+        "unexpected_values_after_uppercase_comparison": [
+          "(NULL)",
+          "9"
+        ],
+        "core_severity_values": [
+          "F",
+          "M",
+          "V"
+        ],
+        "core_severity_count": 140476,
+        "core_severity_coverage_percentage_of_all_rows": 99.0174,
+        "known_non_core_values": [
+          "I"
+        ],
+        "known_non_core_value_counts": {
+          "I": 99
+        },
+        "source_missing_sentinel_counts": {
+          "(null)": 5
+        },
+        "unrecognised_non_core_value_counts": {
+          "9": 426
+        },
+        "severity_analysis_rule": "Use only F/M/V for severity composition after reporting coverage. I, unrecognised codes, true missing values and source missing sentinels remain in the processed dataset and must not be silently recoded."
+      },
+      "AGE_GROUP": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "blank_string_count": 0,
+        "distinct_non_missing_count": 5,
+        "unique_values": [
+          "18-24",
+          "25-44",
+          "45-64",
+          "65+",
+          "<18"
+        ],
+        "value_counts": {
+          "25-44": 81521,
+          "45-64": 30611,
+          "18-24": 20946,
+          "<18": 5587,
+          "65+": 3205
+        },
+        "expected_values": [
+          "18-24",
+          "25-44",
+          "45-64",
+          "65+",
+          "<18"
+        ],
+        "unexpected_values_after_uppercase_comparison": []
+      },
+      "PERP_SEX": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "blank_string_count": 0,
+        "distinct_non_missing_count": 2,
+        "unique_values": [
+          "F",
+          "M"
+        ],
+        "value_counts": {
+          "M": 115054,
+          "F": 26816
+        },
+        "expected_values": [
+          "F",
+          "M",
+          "U"
+        ],
+        "unexpected_values_after_uppercase_comparison": []
+      },
+      "PERP_RACE": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "blank_string_count": 0,
+        "distinct_non_missing_count": 7,
+        "unique_values": [
+          "AMERICAN INDIAN/ALASKAN NATIVE",
+          "ASIAN / PACIFIC ISLANDER",
+          "BLACK",
+          "BLACK HISPANIC",
+          "UNKNOWN",
+          "WHITE",
+          "WHITE HISPANIC"
+        ],
+        "value_counts": {
+          "BLACK": 68243,
+          "WHITE HISPANIC": 35954,
+          "BLACK HISPANIC": 14463,
+          "WHITE": 14026,
+          "ASIAN / PACIFIC ISLANDER": 8379,
+          "AMERICAN INDIAN/ALASKAN NATIVE": 481,
+          "UNKNOWN": 324
+        },
+        "expected_values": [
+          "AMERICAN INDIAN/ALASKAN NATIVE",
+          "ASIAN / PACIFIC ISLANDER",
+          "BLACK",
+          "BLACK HISPANIC",
+          "UNKNOWN",
+          "WHITE",
+          "WHITE HISPANIC"
+        ],
+        "unexpected_values_after_uppercase_comparison": []
+      }
+    },
+    "treatment": "Values are trimmed for validation. Unexpected values are reported and retained; no record is dropped or imputed."
+  },
+  "coordinate_validation": {
+    "available": true,
+    "approximate_nyc_bounds": {
+      "latitude_min": 40.45,
+      "latitude_max": 40.95,
+      "longitude_min": -74.3,
+      "longitude_max": -73.65
+    },
+    "latitude": {
+      "source_missing_or_blank_count": 0,
+      "non_numeric_count": 0,
+      "numeric_count": 141870,
+      "zero_count": 0,
+      "impossible_global_range_count": 0,
+      "minimum_numeric_value": 40.5011,
+      "maximum_numeric_value": 40.911307,
+      "outside_approximate_nyc_range_count": 0
+    },
+    "longitude": {
+      "source_missing_or_blank_count": 0,
+      "non_numeric_count": 0,
+      "numeric_count": 141870,
+      "zero_count": 0,
+      "impossible_global_range_count": 0,
+      "minimum_numeric_value": -74.253049,
+      "maximum_numeric_value": -73.700287,
+      "outside_approximate_nyc_range_count": 0
+    },
+    "numeric_coordinate_pair_count": 141870,
+    "rows_with_any_source_coordinate_missing_or_blank": 0,
+    "incomplete_numeric_pair_count": 0,
+    "globally_valid_nonzero_pair_count": 141870,
+    "within_approximate_nyc_bounds_count": 141870,
+    "outside_approximate_nyc_bounds_count": 0,
+    "treatment": "Coordinate anomalies are reported, not deleted. Approximate NYC bounds are a screening check and not a geographic adjudication."
+  },
+  "variable_roles": {
+    "record_identifier": [
+      "ARREST_KEY"
+    ],
+    "temporal": [
+      "ARREST_DATE"
+    ],
+    "continuous_numeric": [
+      "LATITUDE",
+      "LONGITUDE",
+      "X_COORD_CD",
+      "Y_COORD_CD"
+    ],
+    "numeric_coded_categorical": [
+      "PD_CD",
+      "KY_CD",
+      "ARREST_PRECINCT",
+      "JURISDICTION_CODE"
+    ],
+    "text_preserved_in_processed": [
+      "ARREST_KEY",
+      "PD_CD",
+      "KY_CD",
+      "ARREST_PRECINCT",
+      "JURISDICTION_CODE"
+    ],
+    "numeric_code_caveat": "PD_CD, KY_CD, ARREST_PRECINCT and JURISDICTION_CODE are identifier/category codes even when pandas infers a numeric dtype. Means, medians and variances are not substantively interpretable for these fields."
+  },
+  "passed_checks": [
+    "Source matches the expected 19-column schema.",
+    "No exact duplicate rows were detected.",
+    "All nonblank ARREST_KEY values are unique.",
+    "All supplied ARREST_DATE values parsed and passed YTD year/future checks.",
+    "All latitude/longitude pairs passed numeric, nonzero, global-range, and conservative NYC-bound screening."
+  ],
+  "findings": [
+    {
+      "id": "ytd-temporal-coverage",
+      "severity": "medium",
+      "confidence": "high",
+      "what_failed": "The snapshot is not a complete twelve-month observation period.",
+      "evidence": {
+        "min_date": "2026-01-01",
+        "max_date": "2026-06-30",
+        "snapshot_date": "2026-08-22",
+        "snapshot_to_latest_arrest_gap_days": 53,
+        "latest_observed_month_calendar_complete": true
+      },
+      "why_it_matters": "Observed-period patterns cannot be presented as annual or long-term trends.",
+      "likely_cause": "The source is explicitly Year-to-Date; publication cadence may also affect recency, but no causal explanation was verified.",
+      "suggested_remediation": "Label the exact observed range and assess each month for calendar completeness before comparison."
+    },
+    {
+      "id": "law-category-coverage",
+      "severity": "low",
+      "confidence": "high",
+      "what_failed": "LAW_CAT_CD is not exclusively populated by the core F/M/V severity categories.",
+      "evidence": {
+        "core_fmv_count": 140476,
+        "core_fmv_coverage_percentage": 99.0174,
+        "true_null_count": 864,
+        "source_missing_sentinel_counts": {
+          "(null)": 5
+        },
+        "known_non_core_value_counts": {
+          "I": 99
+        },
+        "unrecognised_non_core_value_counts": {
+          "9": 426
+        }
+      },
+      "why_it_matters": "Severity-composition denominators will be inconsistent if special values are silently mixed into F/M/V.",
+      "likely_cause": "The source contains nulls, an explicit missing sentinel, and non-core codes; their upstream causes were not established.",
+      "suggested_remediation": "For severity composition, explicitly filter to F/M/V and report retained coverage; preserve all source values in the baseline dataset."
+    },
+    {
+      "id": "field-missingness",
+      "severity": "low",
+      "confidence": "high",
+      "what_failed": "Some source fields contain nulls or explicit missing sentinels.",
+      "evidence": {
+        "total_effective_missing_cells": 951,
+        "highest_effective_missingness": [
+          {
+            "column_name": "LAW_CAT_CD",
+            "missing_count": 864,
+            "missing_percentage": 0.609,
+            "blank_string_count": 0,
+            "sentinel_missing_count": 5,
+            "effective_missing_count": 869,
+            "effective_missing_percentage": 0.6125
+          },
+          {
+            "column_name": "KY_CD",
+            "missing_count": 24,
+            "missing_percentage": 0.0169,
+            "blank_string_count": 0,
+            "sentinel_missing_count": 0,
+            "effective_missing_count": 24,
+            "effective_missing_percentage": 0.0169
+          },
+          {
+            "column_name": "OFNS_DESC",
+            "missing_count": 0,
+            "missing_percentage": 0.0,
+            "blank_string_count": 0,
+            "sentinel_missing_count": 24,
+            "effective_missing_count": 24,
+            "effective_missing_percentage": 0.0169
+          },
+          {
+            "column_name": "PD_DESC",
+            "missing_count": 0,
+            "missing_percentage": 0.0,
+            "blank_string_count": 0,
+            "sentinel_missing_count": 24,
+            "effective_missing_count": 24,
+            "effective_missing_percentage": 0.0169
+          },
+          {
+            "column_name": "LAW_CODE",
+            "missing_count": 0,
+            "missing_percentage": 0.0,
+            "blank_string_count": 0,
+            "sentinel_missing_count": 5,
+            "effective_missing_count": 5,
+            "effective_missing_percentage": 0.0035
+          },
+          {
+            "column_name": "PD_CD",
+            "missing_count": 5,
+            "missing_percentage": 0.0035,
+            "blank_string_count": 0,
+            "sentinel_missing_count": 0,
+            "effective_missing_count": 5,
+            "effective_missing_percentage": 0.0035
+          }
+        ]
+      },
+      "why_it_matters": "Usable sample sizes can vary by field and should be stated for each analysis.",
+      "likely_cause": "Upstream completeness varies by field; no cause was established by this snapshot-only audit.",
+      "suggested_remediation": "Do not impute without a defensible rule; report analysis-specific denominators."
+    }
+  ],
+  "analysis_readiness": {
+    "temporal_descriptive_analysis": "ready_with_observed-period_caveat",
+    "monthly_severity_composition": "ready_with_explicit_F_M_V_filter_and_coverage",
+    "shared_baseline": "ready_no_unjustified_imputation_or_row_deletion"
+  },
+  "cleaning": {
+    "original_rows": 141870,
+    "exact_duplicate_rows_involved": 0,
+    "exact_duplicate_rows_removed": 0,
+    "rows_removed_for_invalid_dates": 0,
+    "invalid_date_values_retained_as_nat": 0,
+    "missing_date_values_retained_as_nat": 0,
+    "string_cells_trimmed": 0,
+    "string_columns_with_trimmed_values": [],
+    "textual_identifier_and_code_columns": [
+      "ARREST_KEY",
+      "PD_CD",
+      "KY_CD",
+      "ARREST_PRECINCT",
+      "JURISDICTION_CODE"
+    ],
+    "numeric_identifier_and_code_values_converted_to_text": {
+      "ARREST_KEY": 0,
+      "PD_CD": 0,
+      "KY_CD": 0,
+      "ARREST_PRECINCT": 0,
+      "JURISDICTION_CODE": 0
+    },
+    "coordinate_coercion_failures_retained_as_missing": {
+      "LATITUDE": 0,
+      "LONGITUDE": 0,
+      "X_COORD_CD": 0,
+      "Y_COORD_CD": 0
+    },
+    "non_identical_duplicated_arrest_keys_retained": 0,
+    "rows_with_non_identical_duplicated_arrest_keys_retained": 0,
+    "imputed_values": 0,
+    "final_processed_rows": 141870,
+    "derived_temporal_columns": [
+      "YEAR",
+      "MONTH",
+      "MONTH_NAME",
+      "DAY_OF_WEEK",
+      "DAY_OF_WEEK_NUM"
+    ],
+    "day_of_week_numbering": "Monday=1 through Sunday=7"
+  }
+}

@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+data/raw/*.part
+outputs/part1/*.tmp
+
+# Local course materials are not part of this public analysis repository.
+/*.pdf
+/*.zip
+
+# Editor and operating-system metadata.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.pytest_cache/

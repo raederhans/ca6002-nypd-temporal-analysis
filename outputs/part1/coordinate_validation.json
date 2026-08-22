@@ -1,0 +1,36 @@
+{
+  "available": true,
+  "approximate_nyc_bounds": {
+    "latitude_min": 40.45,
+    "latitude_max": 40.95,
+    "longitude_min": -74.3,
+    "longitude_max": -73.65
+  },
+  "latitude": {
+    "source_missing_or_blank_count": 0,
+    "non_numeric_count": 0,
+    "numeric_count": 141870,
+    "zero_count": 0,
+    "impossible_global_range_count": 0,
+    "minimum_numeric_value": 40.5011,
+    "maximum_numeric_value": 40.911307,
+    "outside_approximate_nyc_range_count": 0
+  },
+  "longitude": {
+    "source_missing_or_blank_count": 0,
+    "non_numeric_count": 0,
+    "numeric_count": 141870,
+    "zero_count": 0,
+    "impossible_global_range_count": 0,
+    "minimum_numeric_value": -74.253049,
+    "maximum_numeric_value": -73.700287,
+    "outside_approximate_nyc_range_count": 0
+  },
+  "numeric_coordinate_pair_count": 141870,
+  "rows_with_any_source_coordinate_missing_or_blank": 0,
+  "incomplete_numeric_pair_count": 0,
+  "globally_valid_nonzero_pair_count": 141870,
+  "within_approximate_nyc_bounds_count": 141870,
+  "outside_approximate_nyc_bounds_count": 0,
+  "treatment": "Coordinate anomalies are reported, not deleted. Approximate NYC bounds are a screening check and not a geographic adjudication."
+}

@@ -1,0 +1,107 @@
+{
+  "dataset_name": "NYPD Arrest Data (Year to Date)",
+  "dataset_id": "uip8-fykc",
+  "source": "NYC Open Data / NYPD",
+  "dataset_page": "https://data.cityofnewyork.us/Public-Safety/NYPD-Arrest-Data-Year-to-Date-/uip8-fykc/about_data",
+  "retrieval_date": "2026-08-22",
+  "retrieved_at": "2026-08-22T18:09:20.386137+08:00",
+  "dataset_updated_at": "2026-07-27T15:25:36+00:00",
+  "row_count": 141870,
+  "column_count": 19,
+  "columns": [
+    "arrest_key",
+    "arrest_date",
+    "pd_cd",
+    "pd_desc",
+    "ky_cd",
+    "ofns_desc",
+    "law_code",
+    "law_cat_cd",
+    "arrest_boro",
+    "arrest_precinct",
+    "jurisdiction_code",
+    "age_group",
+    "perp_sex",
+    "perp_race",
+    "x_coord_cd",
+    "y_coord_cd",
+    "latitude",
+    "longitude",
+    "geocoded_column"
+  ],
+  "min_arrest_date": "2026-01-01",
+  "max_arrest_date": "2026-06-30",
+  "api_method": "Official Socrata SODA CSV API; paginated with $limit/$offset and stable $order=arrest_key",
+  "api_endpoint": "https://data.cityofnewyork.us/resource/uip8-fykc.csv",
+  "page_size": 25000,
+  "page_count": 6,
+  "api_expected_rows_before": 141870,
+  "downloaded_rows": 141870,
+  "api_expected_rows_after": 141870,
+  "count_match": true,
+  "source_revision_before": 1785165936,
+  "source_revision_after": 1785165936,
+  "source_revision_match": true,
+  "source_revision_verification_method": "Initial official metadata observation before download plus post-download official metadata recheck; no source revision change was observed.",
+  "source_revision_rechecked_at": "2026-08-22T18:41:20.809256+08:00",
+  "api_row_count_rechecked_after_download": 141870,
+  "pagination_order_field": "arrest_key",
+  "pagination_order_clause": "arrest_key",
+  "pagination_tie_breaker_field": null,
+  "pagination_tie_breaker_unique": null,
+  "pagination_primary_key_unique": true,
+  "pagination_order_is_total": true,
+  "pagination_order_monotonic": true,
+  "duplicate_arrest_key_rows_seen_during_download": 0,
+  "exact_duplicate_rows_seen_during_download": 0,
+  "raw_file": "data/raw/nypd_arrests_ytd_2026-08-22.csv",
+  "raw_file_sha256": "5dd32e102e2665a0c0e6eed87d1bb3b918758722494e4c8d42acaf612c528c15",
+  "attempts": [
+    {
+      "attempt": 1,
+      "expected_before": 141870,
+      "downloaded": 141870,
+      "expected_after": 141870,
+      "consistent": true
+    }
+  ],
+  "pages": [
+    {
+      "offset": 0,
+      "rows": 25000,
+      "first_arrest_key": "318207860",
+      "last_arrest_key": "319817800"
+    },
+    {
+      "offset": 25000,
+      "rows": 25000,
+      "first_arrest_key": "319817801",
+      "last_arrest_key": "321460421"
+    },
+    {
+      "offset": 50000,
+      "rows": 25000,
+      "first_arrest_key": "321460422",
+      "last_arrest_key": "323071824"
+    },
+    {
+      "offset": 75000,
+      "rows": 25000,
+      "first_arrest_key": "323071825",
+      "last_arrest_key": "324661790"
+    },
+    {
+      "offset": 100000,
+      "rows": 25000,
+      "first_arrest_key": "324661791",
+      "last_arrest_key": "326275783"
+    },
+    {
+      "offset": 125000,
+      "rows": 16870,
+      "first_arrest_key": "326275784",
+      "last_arrest_key": "327485840"
+    }
+  ],
+  "app_token_used": false
+}

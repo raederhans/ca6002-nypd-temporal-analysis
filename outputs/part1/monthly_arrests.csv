@@ -1,0 +1,7 @@
+month_start,month_label,arrest_count,calendar_days_in_scope,calendar_days_in_month,avg_arrests_per_calendar_day,is_partial_month,partial_reason
+2026-01-01,Jan 2026,23542,31,31,759.419355,False,
+2026-02-01,Feb 2026,21069,28,28,752.464286,False,
+2026-03-01,Mar 2026,24696,31,31,796.645161,False,
+2026-04-01,Apr 2026,25129,30,30,837.633333,False,
+2026-05-01,May 2026,25128,31,31,810.580645,False,
+2026-06-01,Jun 2026,22306,30,30,743.533333,False,

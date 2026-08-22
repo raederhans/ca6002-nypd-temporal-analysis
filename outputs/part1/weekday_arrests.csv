@@ -1,0 +1,8 @@
+weekday_num,weekday,arrest_count,calendar_occurrences,mean_arrests_per_occurrence
+0,Monday,16896,26,649.846154
+1,Tuesday,23375,26,899.038462
+2,Wednesday,24344,25,973.760000
+3,Thursday,23972,26,922.000000
+4,Friday,20405,26,784.807692
+5,Saturday,17301,26,665.423077
+6,Sunday,15577,26,599.115385

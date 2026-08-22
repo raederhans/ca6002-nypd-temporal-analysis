@@ -1,0 +1,15 @@
+# Preserve frozen and shared datasets byte-for-byte across platforms.
+data/raw/*.csv -text
+data/processed/*.csv -text
+
+# Keep project source and generated text deterministic.
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+*.svg text eol=lf
+*.ipynb text eol=lf
+outputs/part1/*.csv text eol=lf
+requirements.txt text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf

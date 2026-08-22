@@ -1,0 +1,249 @@
+{
+  "source": {
+    "dataset_name": "NYPD Arrest Data (Year to Date)",
+    "dataset_id": "uip8-fykc",
+    "source": "NYC Open Data / NYPD",
+    "retrieval_date": "2026-08-22",
+    "raw_snapshot_row_count": 141870,
+    "raw_snapshot_column_count": 19,
+    "dataset_updated_at": "2026-07-27T15:25:36+00:00",
+    "data_freshness": {
+      "latest_arrest_date": "2026-06-30",
+      "snapshot_retrieval_date": "2026-08-22",
+      "calendar_days_between_latest_record_and_retrieval": 53
+    }
+  },
+  "analysis_window": {
+    "start_date": "2026-01-01",
+    "end_date": "2026-06-30",
+    "calendar_days_in_scope": 181,
+    "months_in_scope": 6,
+    "input_rows": 141870,
+    "valid_date_rows": 141870,
+    "invalid_date_rows_excluded_from_temporal_analysis": 0
+  },
+  "data_quality": {
+    "missingness_source": "outputs/part1/missingness_summary.csv",
+    "missingness_metric": "effective_missing",
+    "missingness_definition": "Pandas nulls plus blank strings and documented sentinel values.",
+    "missingness_fields_displayed": [
+      {
+        "field": "AGE_GROUP",
+        "reported_missing_count": 0,
+        "reported_missing_pct": 0.0,
+        "effective_missing_count": 0,
+        "effective_missing_pct": 0.0
+      },
+      {
+        "field": "ARREST_BORO",
+        "reported_missing_count": 0,
+        "reported_missing_pct": 0.0,
+        "effective_missing_count": 0,
+        "effective_missing_pct": 0.0
+      },
+      {
+        "field": "ARREST_DATE",
+        "reported_missing_count": 0,
+        "reported_missing_pct": 0.0,
+        "effective_missing_count": 0,
+        "effective_missing_pct": 0.0
+      },
+      {
+        "field": "LATITUDE",
+        "reported_missing_count": 0,
+        "reported_missing_pct": 0.0,
+        "effective_missing_count": 0,
+        "effective_missing_pct": 0.0
+      },
+      {
+        "field": "PERP_RACE",
+        "reported_missing_count": 0,
+        "reported_missing_pct": 0.0,
+        "effective_missing_count": 0,
+        "effective_missing_pct": 0.0
+      },
+      {
+        "field": "PERP_SEX",
+        "reported_missing_count": 0,
+        "reported_missing_pct": 0.0,
+        "effective_missing_count": 0,
+        "effective_missing_pct": 0.0
+      },
+      {
+        "field": "LAW_CODE",
+        "reported_missing_count": 5,
+        "reported_missing_pct": 0.0035,
+        "effective_missing_count": 5,
+        "effective_missing_pct": 0.0035
+      },
+      {
+        "field": "PD_CD",
+        "reported_missing_count": 5,
+        "reported_missing_pct": 0.0035,
+        "effective_missing_count": 5,
+        "effective_missing_pct": 0.0035
+      },
+      {
+        "field": "KY_CD",
+        "reported_missing_count": 24,
+        "reported_missing_pct": 0.0169,
+        "effective_missing_count": 24,
+        "effective_missing_pct": 0.0169
+      },
+      {
+        "field": "OFNS_DESC",
+        "reported_missing_count": 24,
+        "reported_missing_pct": 0.0169,
+        "effective_missing_count": 24,
+        "effective_missing_pct": 0.0169
+      },
+      {
+        "field": "PD_DESC",
+        "reported_missing_count": 24,
+        "reported_missing_pct": 0.0169,
+        "effective_missing_count": 24,
+        "effective_missing_pct": 0.0169
+      },
+      {
+        "field": "LAW_CAT_CD",
+        "reported_missing_count": 869,
+        "reported_missing_pct": 0.6125,
+        "effective_missing_count": 869,
+        "effective_missing_pct": 0.6125
+      }
+    ],
+    "highest_missingness_among_displayed_fields": {
+      "field": "LAW_CAT_CD",
+      "reported_missing_count": 869,
+      "reported_missing_pct": 0.6125,
+      "effective_missing_count": 869,
+      "effective_missing_pct": 0.6125
+    }
+  },
+  "temporal_findings": {
+    "daily": {
+      "definition": "Arrest records per calendar date; absent dates between the minimum and maximum are reindexed to zero.",
+      "total_arrests_with_valid_dates": 141870,
+      "mean_arrests_per_calendar_day": 783.81,
+      "median_arrests_per_calendar_day": 761.0,
+      "zero_count_calendar_days": 0,
+      "highest_daily_count": {
+        "label": "2026-04-01",
+        "value": 1104.0
+      },
+      "lowest_daily_count": {
+        "label": "2026-02-23",
+        "value": 257.0
+      },
+      "highest_7d_rolling_mean": {
+        "label": "2026-05-09",
+        "value": 894.57
+      },
+      "lowest_7d_rolling_mean": {
+        "label": "2026-01-30",
+        "value": 599.71
+      }
+    },
+    "monthly": {
+      "definition": "Monthly arrest count divided by calendar days inside the analysed date range.",
+      "highest_average_daily_month": {
+        "label": "Apr 2026",
+        "value": 837.63
+      },
+      "lowest_average_daily_month": {
+        "label": "Jun 2026",
+        "value": 743.53
+      },
+      "complete_month_count": 6,
+      "partial_months": []
+    },
+    "weekday": {
+      "definition": "Total arrests for each weekday divided by its calendar occurrences in the analysed range.",
+      "highest_average_weekday": {
+        "label": "Wednesday",
+        "value": 973.76
+      },
+      "lowest_average_weekday": {
+        "label": "Sunday",
+        "value": 599.12
+      },
+      "high_to_low_spread_as_pct_of_overall_daily_mean": 47.8,
+      "calendar_occurrences": {
+        "Monday": 26,
+        "Tuesday": 26,
+        "Wednesday": 25,
+        "Thursday": 26,
+        "Friday": 26,
+        "Saturday": 26,
+        "Sunday": 26
+      }
+    }
+  },
+  "severity_analysis": {
+    "eligible": true,
+    "figure_generated": true,
+    "reason": "Severity composition meets the stated completeness criteria.",
+    "criteria": {
+      "overall_classified_coverage_at_least": 0.9,
+      "each_month_classified_coverage_at_least": 0.8,
+      "minimum_distinct_categories": 2,
+      "minimum_months": 2
+    },
+    "classification_coverage_pct": 99.02,
+    "minimum_monthly_classification_coverage_pct": 98.51,
+    "recognized_rows": 140476,
+    "unclassified_rows": 1394,
+    "non_missing_law_category_rows": 141006,
+    "non_missing_unrecognized_rows": 530,
+    "categories_present": [
+      "Felony",
+      "Misdemeanor",
+      "Violation"
+    ],
+    "chart_share_denominator": "All valid-date arrest records within each month",
+    "classified_share_denominator": "Recognised F/M/V arrest records within each month",
+    "coverage_denominator": "All valid-date arrest records within each month",
+    "largest_monthly_share_range": {
+      "severity": "Misdemeanor",
+      "percentage_points": 2.68
+    }
+  },
+  "generated_files": {
+    "tables": {
+      "daily_arrests_csv": "outputs/part1/daily_arrests.csv",
+      "monthly_arrests_csv": "outputs/part1/monthly_arrests.csv",
+      "weekday_arrests_csv": "outputs/part1/weekday_arrests.csv",
+      "monthly_severity_composition_csv": "outputs/part1/monthly_severity_composition.csv"
+    },
+    "figures": {
+      "missingness_overview": [
+        "figures/part1/missingness_overview.png",
+        "figures/part1/missingness_overview.svg"
+      ],
+      "daily_arrests_rolling": [
+        "figures/part1/daily_arrests_rolling.png",
+        "figures/part1/daily_arrests_rolling.svg"
+      ],
+      "monthly_average_daily_arrests": [
+        "figures/part1/monthly_average_daily_arrests.png",
+        "figures/part1/monthly_average_daily_arrests.svg"
+      ],
+      "weekday_average_arrests": [
+        "figures/part1/weekday_average_arrests.png",
+        "figures/part1/weekday_average_arrests.svg"
+      ],
+      "monthly_severity_composition": [
+        "figures/part1/monthly_severity_composition.png",
+        "figures/part1/monthly_severity_composition.svg"
+      ]
+    },
+    "key_findings_json": "outputs/part1/key_findings.json"
+  },
+  "caveats": [
+    "Arrest records reflect recorded police enforcement activity, not the true incidence or rate of crime.",
+    "The Year-to-Date snapshot provides a limited observation window and is not evidence of a long-term trend.",
+    "The snapshot was retrieved 53 calendar days after the latest arrest date; temporal coverage ends on 2026-06-30, not on the retrieval date.",
+    "Monthly averages use calendar days in scope; any partial boundary month is explicitly identified.",
+    "No causal explanation is assigned to temporal peaks or troughs without external evidence."
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "checked_columns": [
+    "ARREST_BORO",
+    "LAW_CAT_CD",
+    "AGE_GROUP",
+    "PERP_SEX",
+    "PERP_RACE"
+  ],
+  "absent_requested_columns": [],
+  "columns": {
+    "ARREST_BORO": {
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "blank_string_count": 0,
+      "distinct_non_missing_count": 5,
+      "unique_values": [
+        "B",
+        "K",
+        "M",
+        "Q",
+        "S"
+      ],
+      "value_counts": {
+        "K": 42877,
+        "B": 32682,
+        "M": 32089,
+        "Q": 29053,
+        "S": 5169
+      },
+      "expected_values": [
+        "B",
+        "K",
+        "M",
+        "Q",
+        "S"
+      ],
+      "unexpected_values_after_uppercase_comparison": []
+    },
+    "LAW_CAT_CD": {
+      "missing_count": 864,
+      "missing_percentage": 0.609,
+      "blank_string_count": 0,
+      "distinct_non_missing_count": 6,
+      "unique_values": [
+        "(null)",
+        "9",
+        "F",
+        "I",
+        "M",
+        "V"
+      ],
+      "value_counts": {
+        "M": 82929,
+        "F": 55651,
+        "V": 1896,
+        "9": 426,
+        "I": 99,
+        "(null)": 5
+      },
+      "expected_values": [
+        "F",
+        "I",
+        "M",
+        "V"
+      ],
+      "unexpected_values_after_uppercase_comparison": [
+        "(NULL)",
+        "9"
+      ],
+      "core_severity_values": [
+        "F",
+        "M",
+        "V"
+      ],
+      "core_severity_count": 140476,
+      "core_severity_coverage_percentage_of_all_rows": 99.0174,
+      "known_non_core_values": [
+        "I"
+      ],
+      "known_non_core_value_counts": {
+        "I": 99
+      },
+      "source_missing_sentinel_counts": {
+        "(null)": 5
+      },
+      "unrecognised_non_core_value_counts": {
+        "9": 426
+      },
+      "severity_analysis_rule": "Use only F/M/V for severity composition after reporting coverage. I, unrecognised codes, true missing values and source missing sentinels remain in the processed dataset and must not be silently recoded."
+    },
+    "AGE_GROUP": {
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "blank_string_count": 0,
+      "distinct_non_missing_count": 5,
+      "unique_values": [
+        "18-24",
+        "25-44",
+        "45-64",
+        "65+",
+        "<18"
+      ],
+      "value_counts": {
+        "25-44": 81521,
+        "45-64": 30611,
+        "18-24": 20946,
+        "<18": 5587,
+        "65+": 3205
+      },
+      "expected_values": [
+        "18-24",
+        "25-44",
+        "45-64",
+        "65+",
+        "<18"
+      ],
+      "unexpected_values_after_uppercase_comparison": []
+    },
+    "PERP_SEX": {
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "blank_string_count": 0,
+      "distinct_non_missing_count": 2,
+      "unique_values": [
+        "F",
+        "M"
+      ],
+      "value_counts": {
+        "M": 115054,
+        "F": 26816
+      },
+      "expected_values": [
+        "F",
+        "M",
+        "U"
+      ],
+      "unexpected_values_after_uppercase_comparison": []
+    },
+    "PERP_RACE": {
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "blank_string_count": 0,
+      "distinct_non_missing_count": 7,
+      "unique_values": [
+        "AMERICAN INDIAN/ALASKAN NATIVE",
+        "ASIAN / PACIFIC ISLANDER",
+        "BLACK",
+        "BLACK HISPANIC",
+        "UNKNOWN",
+        "WHITE",
+        "WHITE HISPANIC"
+      ],
+      "value_counts": {
+        "BLACK": 68243,
+        "WHITE HISPANIC": 35954,
+        "BLACK HISPANIC": 14463,
+        "WHITE": 14026,
+        "ASIAN / PACIFIC ISLANDER": 8379,
+        "AMERICAN INDIAN/ALASKAN NATIVE": 481,
+        "UNKNOWN": 324
+      },
+      "expected_values": [
+        "AMERICAN INDIAN/ALASKAN NATIVE",
+        "ASIAN / PACIFIC ISLANDER",
+        "BLACK",
+        "BLACK HISPANIC",
+        "UNKNOWN",
+        "WHITE",
+        "WHITE HISPANIC"
+      ],
+      "unexpected_values_after_uppercase_comparison": []
+    }
+  },
+  "treatment": "Values are trimmed for validation. Unexpected values are reported and retained; no record is dropped or imputed."
+}

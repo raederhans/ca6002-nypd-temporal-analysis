@@ -1,0 +1,8 @@
+check,value
+row_count,141870.0
+recognised_borough_pct,100.0
+recognised_age_pct,100.0
+core_fmv_severity_pct,99.0174
+valid_precinct_pct,100.0
+valid_nyc_coordinate_pct,100.0
+exact_duplicate_rows_pct,0.0

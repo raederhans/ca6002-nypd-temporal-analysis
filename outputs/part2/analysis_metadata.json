@@ -1,0 +1,10 @@
+{
+  "records": 141870,
+  "date_start": "2026-01-01",
+  "date_end": "2026-06-30",
+  "core_fmv_records": 140476,
+  "non_core_or_missing_severity": 1394,
+  "borough_cramers_v": 0.0636,
+  "age_cramers_v": 0.0766,
+  "top_10_precinct_share_pct": 27.12
+}

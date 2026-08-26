@@ -1,0 +1,6 @@
+{
+  "max_depth": null,
+  "min_samples_leaf": 5,
+  "n_estimators": 200,
+  "best_cv_f1_macro": 0.4786650862454618
+}

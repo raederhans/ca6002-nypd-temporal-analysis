@@ -1,0 +1,52 @@
+{
+  "records": 141870,
+  "core_fmv_records": 140476,
+  "train_size": 112380,
+  "test_size": 28096,
+  "random_state": 42,
+  "tuning_subsample_size": 30000,
+  "scoring": "f1_macro",
+  "test_size_share": 0.2,
+  "features": [
+    "ARREST_BORO",
+    "ARREST_PRECINCT",
+    "AGE_GROUP",
+    "MONTH",
+    "DAY_OF_WEEK_NUM",
+    "JURISDICTION_CODE",
+    "LATITUDE",
+    "LONGITUDE"
+  ],
+  "leakage_columns_excluded": [
+    "LAW_CODE",
+    "PD_CD",
+    "OFNS_DESC",
+    "PD_DESC"
+  ],
+  "class_distribution": {
+    "Felony": {
+      "count": 55651,
+      "share_pct": 39.616
+    },
+    "Misdemeanor": {
+      "count": 82929,
+      "share_pct": 59.0343
+    },
+    "Violation": {
+      "count": 1896,
+      "share_pct": 1.3497
+    }
+  },
+  "best_parameters": {
+    "max_depth": null,
+    "min_samples_leaf": 5,
+    "n_estimators": 200,
+    "best_cv_f1_macro": 0.4786650862454618
+  },
+  "test_accuracy": 0.5915076879271071,
+  "test_balanced_accuracy": 0.6514602418388499,
+  "test_macro_f1": 0.497247675698993,
+  "majority_baseline_accuracy": 0.5903331435079726,
+  "leakage_accuracy": 0.9962984054669703,
+  "leakage_macro_f1": 0.9927458761014725
+}

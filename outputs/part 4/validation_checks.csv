@@ -1,0 +1,7 @@
+check,passed
+Confusion matrix total equals test set size,True
+Row totals match class supports,True
+Accuracy recomputes correctly,True
+Macro F1 recomputes correctly,True
+Balanced accuracy recomputes correctly,True
+Majority baseline recomputes correctly,True

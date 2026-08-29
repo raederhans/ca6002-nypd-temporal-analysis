@@ -1,0 +1,4 @@
+class,actual,predicted,predicted_minus_actual,predicted_to_actual_ratio
+Felony,11131,12975,1844,1.1656634624023
+Misdemeanor,16586,13516,-3070,0.8149041360183287
+Violation,379,1605,1226,4.2348284960422165

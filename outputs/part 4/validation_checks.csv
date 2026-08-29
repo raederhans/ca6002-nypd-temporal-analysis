@@ -1,7 +1,11 @@
 check,passed
-Confusion matrix total equals test set size,True
-Row totals match class supports,True
-Accuracy recomputes correctly,True
-Macro F1 recomputes correctly,True
-Balanced accuracy recomputes correctly,True
-Majority baseline recomputes correctly,True
+Confusion matrix has 3 classes,True
+Test-set total matches report support,True
+Row totals match class support,True
+Accuracy matches model_metrics.json,True
+Balanced accuracy matches model_metrics.json,True
+Macro F1 matches model_metrics.json,True
+Per-class precision matches report,True
+Per-class recall matches report,True
+Per-class F1 matches report,True
+Majority baseline matches reported baseline,True

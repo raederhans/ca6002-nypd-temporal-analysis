@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1152pt" height="648pt" viewBox="0 0 1152 648" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-30T17:33:02.819017</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 648
+L 1152 648
+L 1152 0
+L 0 0
+z
+" style="fill: #fbfaf7"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 226.8 550.8
+L 602.64 550.8
+L 602.64 174.96
+L 226.8 174.96
+z
+" style="fill: #fbfaf7"/>
+   </g>
+   <g clip-path="url(#pd2ff80361b)">
+    <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAgoAAAIKCAYAAABCwWdVAAAIm0lEQVR4nO3YoU2DURiG0UL+FMU0KLbAdJAuwAoMwAhdgQRZhcOAIFVVBAED0AkecdUt4Rz75SavfHIvDp9fvyv4Y47fP7MnwLC7h8fZE2DY5fgTAOC/EAoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQBIKAEASCgBAEgoAQFqe3j/6Cmfq+fVt9gQYtr/fzp4Aw/woAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAAadntX/oKZ2pzezN7Agy7vlrPngDD/CgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAABJKAAASSgAAEkoAACrcgL7WhXG2w3fNwAAAABJRU5ErkJggg==" id="imagef6e9f9abe1" transform="scale(1 -1) translate(0 -375.84)" x="226.8" y="-174.96" width="375.84" height="375.84"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 353.3328 176.2128
+L 476.1072 176.2128
+L 476.1072 298.9872
+L 353.3328 298.9872
+L 353.3328 176.2128
+z
+" clip-path="url(#pd2ff80361b)" style="fill: none; stroke: #8b1118; stroke-width: 3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 228.0528 301.4928
+L 350.8272 301.4928
+L 350.8272 424.2672
+L 228.0528 424.2672
+L 228.0528 301.4928
+z
+" clip-path="url(#pd2ff80361b)" style="fill: none; stroke: #8b1118; stroke-width: 3; stroke-linejoin: miter"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 15px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #687586" x="289.44" y="159.802969" transform="rotate(-0 289.44 159.802969)">Felony</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 15px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #687586" x="414.72" y="159.803262" transform="rotate(-0 414.72 159.803262)">Misdemeanor</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-size: 15px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #687586" x="540" y="159.803262" transform="rotate(-0 540 159.803262)">Violation</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <path d="M 226.8 550.8
+L 226.8 174.96
+" clip-path="url(#pd2ff80361b)" style="fill: none; stroke: #fbfaf7; stroke-width: 5; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_5">
+      <defs>
+       <path id="ma2c378fa94" d="M 0 0
+L 0 -2
+" style="stroke: #687586; stroke-width: 0.6"/>
+      </defs>
+      <g>
+       <use xlink:href="#ma2c378fa94" x="226.8" y="174.96" style="fill: #687586; stroke: #687586; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_6">
+      <path d="M 352.08 550.8
+L 352.08 174.96
+" clip-path="url(#pd2ff80361b)" style="fill: none; stroke: #fbfaf7; stroke-width: 5; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#ma2c378fa94" x="352.08" y="174.96" style="fill: #687586; stroke: #687586; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_8">
+      <path d="M 477.36 550.8
+L 477.36 174.96
+" clip-path="url(#pd2ff80361b)" style="fill: none; stroke: #fbfaf7; stroke-width: 5; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#ma2c378fa94" x="477.36" y="174.96" style="fill: #687586; stroke: #687586; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_10">
+      <path d="M 602.64 550.8
+L 602.64 174.96
+" clip-path="url(#pd2ff80361b)" style="fill: none; stroke: #fbfaf7; stroke-width: 5; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#ma2c378fa94" x="602.64" y="174.96" style="fill: #687586; stroke: #687586; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_12"/>
+     <g id="text_4">
+      <text style="font-size: 15px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #687586" x="214.8" y="243.060205" transform="rotate(-0 214.8 243.060205)">Felony</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_13"/>
+     <g id="text_5">
+      <text style="font-size: 15px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #687586" x="214.8" y="368.340205" transform="rotate(-0 214.8 368.340205)">Misdemeanor</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_14"/>
+     <g id="text_6">
+      <text style="font-size: 15px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #687586" x="214.8" y="493.620205" transform="rotate(-0 214.8 493.620205)">Violation</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_15">
+      <path d="M 226.8 174.96
+L 602.64 174.96
+" clip-path="url(#pd2ff80361b)" style="fill: none; stroke: #fbfaf7; stroke-width: 5; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_16">
+      <path d="M 226.8 300.24
+L 602.64 300.24
+" clip-path="url(#pd2ff80361b)" style="fill: none; stroke: #fbfaf7; stroke-width: 5; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_17">
+      <path d="M 226.8 425.52
+L 602.64 425.52
+" clip-path="url(#pd2ff80361b)" style="fill: none; stroke: #fbfaf7; stroke-width: 5; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_18">
+      <path d="M 226.8 550.8
+L 602.64 550.8
+" clip-path="url(#pd2ff80361b)" style="fill: none; stroke: #fbfaf7; stroke-width: 5; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="text_7">
+     <text style="font-weight: 700; font-size: 12.5px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #687586" x="105.304541" y="362.88" transform="rotate(-90 105.304541 362.88)">Actual</text>
+    </g>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 20px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="289.44" y="235.258981" transform="rotate(-0 289.44 235.258981)">62.2%</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 12.5px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="289.44" y="268.396341" transform="rotate(-0 289.44 268.396341)">(6,928)</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 20px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #17253a" x="414.72" y="235.258981" transform="rotate(-0 414.72 235.258981)">36.4%</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 12.5px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #17253a" x="414.72" y="268.396341" transform="rotate(-0 414.72 268.396341)">(4,048)</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 20px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #17253a" x="540" y="235.258981" transform="rotate(-0 540 235.258981)">1.4%</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 12.5px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #17253a" x="540" y="268.396341" transform="rotate(-0 540 268.396341)">(155)</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 20px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #17253a" x="289.44" y="360.538981" transform="rotate(-0 289.44 360.538981)">36.3%</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 12.5px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #17253a" x="289.44" y="393.676341" transform="rotate(-0 289.44 393.676341)">(6,025)</text>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 20px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="414.72" y="360.538981" transform="rotate(-0 414.72 360.538981)">56.7%</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 12.5px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="414.72" y="393.676341" transform="rotate(-0 414.72 393.676341)">(9,401)</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 20px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #17253a" x="540" y="360.538981" transform="rotate(-0 540 360.538981)">7.0%</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 12.5px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #17253a" x="540" y="393.676341" transform="rotate(-0 540 393.676341)">(1,160)</text>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 20px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #17253a" x="289.44" y="485.818981" transform="rotate(-0 289.44 485.818981)">5.8%</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 12.5px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #17253a" x="289.44" y="518.956341" transform="rotate(-0 289.44 518.956341)">(22)</text>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 700; font-size: 20px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #17253a" x="414.72" y="485.818981" transform="rotate(-0 414.72 485.818981)">17.7%</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 12.5px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #17253a" x="414.72" y="518.956341" transform="rotate(-0 414.72 518.956341)">(67)</text>
+   </g>
+   <g id="text_24">
+    <text style="font-weight: 700; font-size: 20px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="540" y="485.818981" transform="rotate(-0 540 485.818981)">76.5%</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 12.5px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="540" y="518.956341" transform="rotate(-0 540 518.956341)">(290)</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_5">
+    <path d="M 796.896 328.74336
+L 1080.864 328.74336
+Q 1088.064 328.74336 1088.064 319.99536
+L 1088.064 198.92304
+Q 1088.064 190.17504 1080.864 190.17504
+L 796.896 190.17504
+Q 789.696 190.17504 789.696 198.92304
+L 789.696 319.99536
+Q 789.696 328.74336 796.896 328.74336
+z
+" clip-path="url(#p86a50365bf)" style="fill: #f1d9da"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 796.896 489.70656
+L 1080.864 489.70656
+Q 1088.064 489.70656 1088.064 480.95856
+L 1088.064 366.88464
+Q 1088.064 358.13664 1080.864 358.13664
+L 796.896 358.13664
+Q 789.696 358.13664 789.696 366.88464
+L 789.696 480.95856
+Q 789.696 489.70656 796.896 489.70656
+z
+" clip-path="url(#p86a50365bf)" style="fill: #eef1f4"/>
+   </g>
+   <g id="text_26">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #8b1118" x="812.16" y="224.4672" transform="rotate(-0 812.16 224.4672)">THE DOMINANT ERROR</text>
+   </g>
+   <g id="text_27">
+    <text style="font-weight: 700; font-size: 21px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17253a" x="812.16" y="269.9568" transform="rotate(-0 812.16 269.9568)">36.4%  F → M</text>
+   </g>
+   <g id="text_28">
+    <text style="font-weight: 700; font-size: 21px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17253a" x="812.16" y="304.9488" transform="rotate(-0 812.16 304.9488)">36.3%  M → F</text>
+   </g>
+   <g id="text_29">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #687586" x="812.16" y="392.4288" transform="rotate(-0 812.16 392.4288)">READ THE DIAGONAL CAREFULLY</text>
+   </g>
+   <g id="text_30">
+    <text style="font-weight: 700; font-size: 16.5px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17253a" x="812.16" y="434.4192" transform="rotate(-0 812.16 434.4192)">Violation recall: 76.5%</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 12.5px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; fill: #687586" transform="translate(812.16 479.448431)">Recall does not account for</text>
+    <text style="font-size: 12.5px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; fill: #687586" transform="translate(812.16 493.053168)">false-positive predictions.</text>
+   </g>
+  </g>
+  <g id="patch_7">
+   <path d="M 63.36 93.96
+L 123.264 93.96
+L 123.264 90.072
+L 63.36 90.072
+z
+" style="fill: #8b1118"/>
+  </g>
+  <g id="text_32">
+   <text style="font-weight: 700; font-size: 28px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17253a" x="63.36" y="62.504766" transform="rotate(-0 63.36 62.504766)">The model mainly confuses Felony and Misdemeanor</text>
+  </g>
+  <g id="text_33">
+   <text style="font-size: 14.5px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #687586" x="63.36" y="85.076396" transform="rotate(-0 63.36 85.076396)">Rows = actual; columns = predicted · cells show within-row share and raw count · test set n=28,096</text>
+  </g>
+  <g id="text_34">
+   <text style="font-size: 9.5px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #687586" x="63.36" y="638.224547" transform="rotate(-0 63.36 638.224547)">Source: NYC Open Data / NYPD · dataset uip8-fykc · observed 1 Jan–30 Jun 2026 · retrieved 22 Aug 2026</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pd2ff80361b">
+   <rect x="226.8" y="174.96" width="375.84" height="375.84"/>
+  </clipPath>
+  <clipPath id="p86a50365bf">
+   <rect x="794.88" y="168.48" width="288" height="349.92"/>
+  </clipPath>
+ </defs>
+</svg>

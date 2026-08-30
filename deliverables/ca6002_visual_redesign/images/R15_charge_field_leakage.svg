@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1152pt" height="648pt" viewBox="0 0 1152 648" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-30T17:33:03.374333</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 648
+L 1152 648
+L 1152 0
+L 0 0
+z
+" style="fill: #fbfaf7"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 184.32 531.36
+L 783.36 531.36
+L 783.36 155.52
+L 184.32 155.52
+z
+" style="fill: #fbfaf7"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 15px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #687586" x="304.701244" y="545.78041" transform="rotate(-0 304.701244 545.78041)">Context only</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 15px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #687586" x="662.978756" y="545.78041" transform="rotate(-0 662.978756 545.78041)">Charge-related fields</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_3">
+      <path d="M 184.32 531.36
+L 783.36 531.36
+" clip-path="url(#p3bdcda19ab)" style="fill: none; stroke: #d9dee5; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4"/>
+     <g id="text_3">
+      <text style="font-size: 15px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #687586" x="180.82" y="536.820205" transform="rotate(-0 180.82 536.820205)">0%</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_5">
+      <path d="M 184.32 444.36
+L 783.36 444.36
+" clip-path="url(#p3bdcda19ab)" style="fill: none; stroke: #d9dee5; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6"/>
+     <g id="text_4">
+      <text style="font-size: 15px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #687586" x="180.82" y="449.820205" transform="rotate(-0 180.82 449.820205)">25%</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_7">
+      <path d="M 184.32 357.36
+L 783.36 357.36
+" clip-path="url(#p3bdcda19ab)" style="fill: none; stroke: #d9dee5; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8"/>
+     <g id="text_5">
+      <text style="font-size: 15px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #687586" x="180.82" y="362.820205" transform="rotate(-0 180.82 362.820205)">50%</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_9">
+      <path d="M 184.32 270.36
+L 783.36 270.36
+" clip-path="url(#p3bdcda19ab)" style="fill: none; stroke: #d9dee5; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10"/>
+     <g id="text_6">
+      <text style="font-size: 15px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #687586" x="180.82" y="275.820205" transform="rotate(-0 180.82 275.820205)">75%</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_11">
+      <path d="M 184.32 183.36
+L 783.36 183.36
+" clip-path="url(#p3bdcda19ab)" style="fill: none; stroke: #d9dee5; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12"/>
+     <g id="text_7">
+      <text style="font-size: 15px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #687586" x="180.82" y="188.820205" transform="rotate(-0 180.82 188.820205)">100%</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 211.549091 531.36
+L 397.853397 531.36
+L 397.853397 325.515325
+L 211.549091 325.515325
+z
+" clip-path="url(#p3bdcda19ab)" style="fill: #147a8a"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 569.826603 531.36
+L 756.130909 531.36
+L 756.130909 184.648155
+L 569.826603 184.648155
+z
+" clip-path="url(#p3bdcda19ab)" style="fill: url(#h51202b1d2f); stroke: #8b1118; stroke-width: 2.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 22px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #147a8a" x="304.701244" y="313.229442" transform="rotate(-0 304.701244 313.229442)">59.15%</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 22px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #8b1118" x="662.978756" y="172.362272" transform="rotate(-0 662.978756 172.362272)">99.63%</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 11.5px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; fill: #8b1118" transform="translate(612.50274 487.721538)">LEAKAGE-PRONE</text>
+    <text style="font-weight: 700; font-size: 11.5px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; fill: #8b1118" transform="translate(626.881334 500.237896)">DIAGNOSTIC</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_5">
+    <path d="M 830.7648 347.49
+L 1093.0752 347.49
+Q 1101.024 347.49 1101.024 338.742
+L 1101.024 210.438
+Q 1101.024 201.69 1093.0752 201.69
+L 830.7648 201.69
+Q 822.816 201.69 822.816 210.438
+L 822.816 338.742
+Q 822.816 347.49 830.7648 347.49
+z
+" clip-path="url(#pae9ef90949)" style="fill: #f1d9da"/>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #8b1118" x="847.9872" y="235.224" transform="rotate(-0 847.9872 235.224)">WHAT CHANGED</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17253a" x="847.9872" y="273.132" transform="rotate(-0 847.9872 273.132)">LAW_CODE</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17253a" x="847.9872" y="302.292" transform="rotate(-0 847.9872 302.292)">PD_CD</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17253a" x="847.9872" y="331.452" transform="rotate(-0 847.9872 331.452)">OFNS_DESC</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 13px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; fill: #17253a" transform="translate(834.7392 397.294721)">These fields encode or closely</text>
+    <text style="font-size: 13px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; fill: #17253a" transform="translate(834.7392 411.4439)">describe the recorded charge.</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 12.5px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; fill: #687586" transform="translate(834.7392 458.129231)">Keep the contextual result as</text>
+    <text style="font-size: 12.5px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; fill: #687586" transform="translate(834.7392 471.733968)">the answer to the original question.</text>
+   </g>
+  </g>
+  <g id="patch_6">
+   <path d="M 63.36 93.96
+L 123.264 93.96
+L 123.264 90.072
+L 63.36 90.072
+z
+" style="fill: #8b1118"/>
+  </g>
+  <g id="text_17">
+   <text style="font-weight: 700; font-size: 28px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17253a" x="63.36" y="62.504766" transform="rotate(-0 63.36 62.504766)">Charge-related fields change the prediction task</text>
+  </g>
+  <g id="text_18">
+   <text style="font-size: 14.5px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #687586" x="63.36" y="85.076396" transform="rotate(-0 63.36 85.076396)">Accuracy comparison using the same data split · the near-perfect result is a leakage diagnostic</text>
+  </g>
+  <g id="text_19">
+   <text style="font-size: 9.5px; font-family: 'Arial', 'Aptos', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #687586" x="63.36" y="638.224547" transform="rotate(-0 63.36 638.224547)">Source: NYC Open Data / NYPD · dataset uip8-fykc · observed 1 Jan–30 Jun 2026 · retrieved 22 Aug 2026</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p3bdcda19ab">
+   <rect x="184.32" y="155.52" width="599.04" height="375.84"/>
+  </clipPath>
+  <clipPath id="pae9ef90949">
+   <rect x="829.44" y="194.4" width="264.96" height="291.6"/>
+  </clipPath>
+ </defs>
+ <defs>
+  <pattern id="h51202b1d2f" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
+   <rect x="0" y="0" width="73" height="73" fill="#f1d9da"/>
+   <path d="M -36 36
+L 36 -36
+M -32 40
+L 40 -32
+M -28 44
+L 44 -28
+M -24 48
+L 48 -24
+M -20 52
+L 52 -20
+M -16 56
+L 56 -16
+M -12 60
+L 60 -12
+M -8 64
+L 64 -8
+M -4 68
+L 68 -4
+M 0 72
+L 72 0
+M 4 76
+L 76 4
+M 8 80
+L 80 8
+M 12 84
+L 84 12
+M 16 88
+L 88 16
+M 20 92
+L 92 20
+M 24 96
+L 96 24
+M 28 100
+L 100 28
+M 32 104
+L 104 32
+M 36 108
+L 108 36
+" style="fill: #8b1118; stroke: #8b1118; stroke-width: 1.0; stroke-linecap: butt; stroke-linejoin: miter"/>
+  </pattern>
+ </defs>
+</svg>
